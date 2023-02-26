@@ -1,0 +1,23 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    color: white;
+
+    margin: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, #000000bd 70%, #000000 95%), url(../images/swa-min.jpg);
+    background-position: center;
+    background-size: cover;
+	backdrop-filter: blur(3px);
+    background-color: #000;
+}
+
+.main h1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 350px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
