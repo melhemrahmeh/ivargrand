@@ -7,7 +7,7 @@ const Team = () => {
     <div className="team">
       <h1 className="title text-dark"> Meet The Team</h1>
       <div className="meet-team">
-        <article class="card">
+        <article class="card member_card w-5">
           <div class="temporary_text"><img src={IMG} alt="" /></div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
@@ -23,7 +23,7 @@ const Team = () => {
           </div>
         </article>
 
-        <article class="card">
+        <article class="card member_card">
           <div class="temporary_text"><img src={IMG} alt="" /></div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
@@ -39,7 +39,7 @@ const Team = () => {
           </div>
         </article>
 
-        <article class="card">
+        <article class="card member_card">
           <div class="temporary_text"><img src={IMG} alt="" /></div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
@@ -55,7 +55,7 @@ const Team = () => {
           </div>
         </article>
 
-        <article class="card">
+        <article class="card member_card">
           <div class="temporary_text"><img src={IMG} alt="" /></div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>

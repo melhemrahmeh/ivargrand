@@ -16,11 +16,11 @@ const Card = () => {
             <h2>Welcome to IVAR GRAND!</h2>
             <img src={IMG} alt="hahaha" />
           </div>
-          <div className="empty-left-down"></div>
+          <div className="empty-left-down clear_small_grey"></div>
         </div>
 
         <div className="left">
-          <div className="empty-left-red"></div>
+          <div className="empty-left-red clear_small"></div>
           <div className="right-items">
             <p>{DATA[0].data}</p>
           </div>
@@ -29,7 +29,7 @@ const Card = () => {
       </div>
 
     {/* second */}
-      <div className="sect ">
+      <div className="sect sect_reverse">
         <div className="right grey">
           <div className="right-items">
             <p className="text-dark">{DATA[1].data}</p>

@@ -2,7 +2,9 @@
     width: 100%;
     height: 100vh;
     color: white;
-
+    display: grid;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     background-image: linear-gradient(to bottom, transparent 0%, #000000bd 70%, #000000 95%), url(../images/swa-min.jpg);
     background-position: center;
@@ -12,12 +14,11 @@
 }
 
 .main h1{
-    position: absolute;
-    top: 30%;
-    left: 40%;
+
     width: 350px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 30px;
 }
 
+ 

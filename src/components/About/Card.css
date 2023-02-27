@@ -112,3 +112,27 @@
 .grey {
   background-color: rgb(210, 210, 210);
 }
+
+
+@media screen and (max-width : 991px) {
+     .sect{
+      display: flex;
+      flex-direction: column;
+     }
+     
+     .sect_reverse{
+      flex-direction: column-reverse;
+     }
+
+     .empty-left-down{
+      /* display: none; */
+     }
+
+     .clear_small{
+      display: none;
+     }
+
+     .clear_small_grey{
+      display: none;
+     }
+}

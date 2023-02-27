@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div class="text-center text-white" id="background">
         <div class="container pt-4">
-          <section class="mb-4 ">
+          <section class="mb-4 mid">
             <Link class="btn btn-link btn-floating btn-lg text-dark m-1 text-decoration-none" to="/home">
               Home
             </Link>
