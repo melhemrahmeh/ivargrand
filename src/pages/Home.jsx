@@ -1,15 +1,15 @@
-import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
-import Footer from '../components/Footer/Footer'
+import React from "react";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
-    <div>sdfygfwuef</div>
-    <Footer/>
+      <Navbar />
+      <div>sdfygfwuef</div>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

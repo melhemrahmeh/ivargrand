@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import IMG from "../../assets/logoWhite.png";
 import IMG2 from "../../assets/color_logo.png";
-import IMG3 from "../../assets/black_logo.png"
+import IMG3 from "../../assets/black_logo.png";
 import DATA from "../data.json";
 
 const Card = () => {
@@ -28,7 +28,7 @@ const Card = () => {
         </div>
       </div>
 
-    {/* second */}
+      {/* second */}
       <div className="sect sect_reverse">
         <div className="right grey">
           <div className="right-items">
@@ -43,7 +43,7 @@ const Card = () => {
         </div>
       </div>
 
-    {/* third */}
+      {/* third */}
       <div className="sect">
         <div className="">
           <div className="left-items grey">

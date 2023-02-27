@@ -78,7 +78,7 @@ textarea {
   margin-bottom: 5vh;
 }
 
-.custom_btn{
+.custom_btn {
   width: fit-content;
   background-color: #686866;
   border: 0;
@@ -87,6 +87,6 @@ textarea {
   padding: 10px 40px;
 }
 
-.custom_btn:hover{
+.custom_btn:hover {
   background-color: rgb(159, 30, 34);
 }

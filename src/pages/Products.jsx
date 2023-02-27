@@ -7,7 +7,7 @@ const Products = () => {
     <>
       <Navbar />
       <div>Products</div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

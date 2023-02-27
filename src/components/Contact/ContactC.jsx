@@ -1,8 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import { MdOutlineEmail } from "react-icons/md";
-import { BsLinkedin } from "react-icons/bs";
-import { FaInstagram } from "react-icons/fa";
 
 const ContactC = () => {
   return (
@@ -19,14 +16,20 @@ const ContactC = () => {
                 <em>Don't hesitate to give us a call via:</em>
               </p>
               <ul>
-                <li><b>Landline:</b> +971 4565 3098</li>
-                <li><b>Telephone:</b> +971 50 2705 671</li>
+                <li>
+                  <b>Landline:</b> +971 4565 3098
+                </li>
+                <li>
+                  <b>Telephone:</b> +971 50 2705 671
+                </li>
               </ul>
               <p class="card-text">
                 <em>Or send us an email on:</em>
               </p>
               <ul>
-                <li><b>Email:</b> ivar.lubricants@gmail.com</li>
+                <li>
+                  <b>Email:</b> ivar.lubricants@gmail.com
+                </li>
               </ul>
               <p class="card-text">
                 Open Monday till Saturday from 9am till 6pm. We close on Sunday
@@ -59,7 +62,10 @@ const ContactC = () => {
                   placeholder="Your Message"
                   required
                 ></textarea>
-                <button type="button" class="btn btn-primary btn-rounded custom_btn">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-rounded custom_btn"
+                >
                   <b>Send</b>
                 </button>
               </form>

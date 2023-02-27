@@ -1,10 +1,10 @@
-nav > div >img{
-    width: 150px;
-    margin-right: calc(100vw - 950px);
-    margin-left: 2vw;
+nav > div > img {
+  width: 150px;
+  margin-right: calc(100vw - 950px);
+  margin-left: 2vw;
 }
 
-nav{
+nav {
   background-color: #686866;
   padding: 15px;
   transition: all 0.8s;
@@ -13,14 +13,13 @@ nav{
   color: white;
 }
 
-li{
+li {
   margin: auto 20px;
 }
-.navbar .navbar-nav > li > a{
-
-  font-family: "Lato", sans-serif;
+.navbar .navbar-nav > li > a {
+  /* font-family: "Lato", sans-serif; */
   text-transform: uppercase;
-  
+
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -32,7 +31,7 @@ li{
   display: block;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #9F1E22 0%, #c13136 100%);
+  background: linear-gradient(to right, #9f1e22 0%, #c13136 100%);
   content: "";
   transition: width 0.2s;
 }

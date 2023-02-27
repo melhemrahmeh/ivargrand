@@ -8,7 +8,7 @@ const Contact = () => {
     <>
       <Navbar />
       <ContactC />
-      <Footer/>
+      <Footer />
     </>
   );
 };

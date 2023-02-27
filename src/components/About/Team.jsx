@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.css";
-import IMG from "../images/fggf.jpg"
+import IMG from "../images/fggf.jpg";
 
 const Team = () => {
   return (
@@ -8,7 +8,9 @@ const Team = () => {
       <h1 className="title text-dark"> Meet The Team</h1>
       <div className="meet-team">
         <article class="card member_card w-5">
-          <div class="temporary_text"><img src={IMG} alt="" /></div>
+          <div class="temporary_text">
+            <img src={IMG} alt="" />
+          </div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
             <span class="card_subtitle">
@@ -24,7 +26,9 @@ const Team = () => {
         </article>
 
         <article class="card member_card">
-          <div class="temporary_text"><img src={IMG} alt="" /></div>
+          <div class="temporary_text">
+            <img src={IMG} alt="" />
+          </div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
             <span class="card_subtitle">
@@ -40,7 +44,9 @@ const Team = () => {
         </article>
 
         <article class="card member_card">
-          <div class="temporary_text"><img src={IMG} alt="" /></div>
+          <div class="temporary_text">
+            <img src={IMG} alt="" />
+          </div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
             <span class="card_subtitle">
@@ -56,7 +62,9 @@ const Team = () => {
         </article>
 
         <article class="card member_card">
-          <div class="temporary_text"><img src={IMG} alt="" /></div>
+          <div class="temporary_text">
+            <img src={IMG} alt="" />
+          </div>
           <div class="card_content">
             <span class="card_title">This is a Title</span>
             <span class="card_subtitle">
