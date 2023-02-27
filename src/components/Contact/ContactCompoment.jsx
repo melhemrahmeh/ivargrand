@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-const ContactC = () => {
+const ContactCompoment = () => {
   return (
     <div className="main_pic">
       <div class="row">
@@ -77,4 +77,4 @@ const ContactC = () => {
   );
 };
 
-export default ContactC;
+export default ContactCompoment;
