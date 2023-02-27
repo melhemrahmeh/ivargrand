@@ -5,7 +5,7 @@ import IMG from "../images/fggf.jpg"
 const Team = () => {
   return (
     <div className="team">
-      <h1 className="title"> Meet The Team</h1>
+      <h1 className="title text-dark"> Meet The Team</h1>
       <div className="meet-team">
         <article class="card">
           <div class="temporary_text"><img src={IMG} alt="" /></div>
