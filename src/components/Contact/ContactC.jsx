@@ -19,14 +19,14 @@ const ContactC = () => {
                 <em>Don't hesitate to give us a call via:</em>
               </p>
               <ul>
-                <li>Landline: +971 4565 3098</li>
-                <li>Telephone: +971 50 2705 671</li>
+                <li><b>Landline:</b> +971 4565 3098</li>
+                <li><b>Telephone:</b> +971 50 2705 671</li>
               </ul>
               <p class="card-text">
                 <em>Or send us an email on:</em>
               </p>
               <ul>
-                <li>Email: ivar.lubricants@gmail.com</li>
+                <li><b>Email:</b> ivar.lubricants@gmail.com</li>
               </ul>
               <p class="card-text">
                 Open Monday till Saturday from 9am till 6pm. We close on Sunday
@@ -60,7 +60,7 @@ const ContactC = () => {
                   required
                 ></textarea>
                 <button type="button" class="btn btn-primary btn-rounded custom_btn">
-                  Send
+                  <b>Send</b>
                 </button>
               </form>
             </div>
