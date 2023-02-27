@@ -2,6 +2,7 @@ import React from "react";
 import "./Card.css";
 import IMG from "../../assets/logoWhite.png";
 import IMG2 from "../../assets/color_logo.png";
+import IMG3 from "../../assets/black_logo.png"
 import DATA from "../data.json";
 
 const Card = () => {
@@ -31,13 +32,13 @@ const Card = () => {
       <div className="sect ">
         <div className="right grey">
           <div className="right-items">
-            <p>{DATA[1].data}</p>
+            <p className="text-dark">{DATA[1].data}</p>
           </div>
         </div>
 
         <div className="">
           <div className="left-items grey">
-            <img src={IMG} alt="hahaha" />
+            <img src={IMG3} alt="hahaha" />
           </div>
         </div>
       </div>
@@ -46,7 +47,6 @@ const Card = () => {
       <div className="sect">
         <div className="">
           <div className="left-items grey">
-            <h2 className="text-dark">Welcome to IVAR GRAND!</h2>
             <img src={IMG2} alt="hahaha" />
           </div>
         </div>
