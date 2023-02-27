@@ -102,11 +102,12 @@ textarea {
 }
 
 
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .row{
     background-size: contain;
     display: flex;
     flex-direction: column;
+    height: fit-content;
   }
   
 }
