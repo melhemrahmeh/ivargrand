@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const ContactC = () => {
   return (
-    <>
+    <div className="main_pic">
       <div class="row">
         <div class="col-sm-6">
           <div class="card card_main">
@@ -59,15 +59,15 @@ const ContactC = () => {
                   placeholder="Your Message"
                   required
                 ></textarea>
-                <button type="submit" className="buttonDownload" id="sendm">
-                  Send Message
+                <button type="button" class="btn btn-primary btn-rounded custom_btn">
+                  Send
                 </button>
               </form>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
