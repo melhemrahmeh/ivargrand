@@ -21,18 +21,27 @@
   width: 100%;
   margin: 0 auto;
   position: relative;
-  height: calc(100vh - 272px);
+  height: fit-content;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.row > *{
+  width: 50%;
+  margin: 10px auto;
 }
 
 .body_contact {
   background-color: transparent;
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
   padding: 100px 30px;
   text-align: center;
   border-radius: 40px;
-  height: 550px;
+  height: fit-content;
+  margin-bottom: 10px;
+  width: 40vw;
 }
 
 .body_contact > * {
@@ -67,11 +76,12 @@ textarea {
 .body_form {
   background-color: transparent;
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
   padding: 100px 30px;
   text-align: center;
   border-radius: 40px;
-  height: 550px;
+  height: fit-content;
+  width: 40vw;
 }
 
 #title_contact_us {
@@ -89,4 +99,14 @@ textarea {
 
 .custom_btn:hover {
   background-color: rgb(159, 30, 34);
+}
+
+
+@media screen and (max-width: 991px) {
+  .row{
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
