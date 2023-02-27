@@ -5,7 +5,7 @@ const ContactCompoment = () => {
   return (
     <div className="main_pic">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="">
           <div class="card card_main">
             <div class="card-body body_contact">
               <h5 class="card-title contact_title">
@@ -39,7 +39,7 @@ const ContactCompoment = () => {
           </div>
         </div>
 
-        <div class="col-sm-6">
+        <div class="">
           <div class="card card_main">
             <div class="card-body body_form">
               <h2 id="title_contact_us">Send Us A Message</h2>
