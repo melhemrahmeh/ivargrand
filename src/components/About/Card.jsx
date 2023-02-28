@@ -10,9 +10,9 @@ const Card = () => {
     // first
     <div id="grey">
       <div className="sect">
-        <div className="left">
+        <div className="left red">
           <div className="empty-left-red"></div>
-          <div className="left-items">
+          <div className="left-items red">
             <h2>Welcome to IVAR GRAND!</h2>
             <img src={IMG} alt="hahaha" />
           </div>
@@ -20,8 +20,8 @@ const Card = () => {
         </div>
 
         <div className="left">
-          <div className="empty-left-red clear_small"></div>
-          <div className="right-items">
+          <div className="empty-left-red clear_small "></div>
+          <div className="right-items red">
             <p>{DATA[0].data}</p>
           </div>
           <div className="empty-left-down"></div>
