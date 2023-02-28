@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.css";
-import IMG from "../../assets/phillipe.PNG";
+import IMG from "../../assets/phillipe.jpg";
 import ELIAS from "../../assets/elias.jpg";
 
 const Team = () => {
