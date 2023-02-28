@@ -1,5 +1,5 @@
 #grey {
-  background-color: #d1d1d1;
+  background-color: rgb(217, 215, 215);
 }
 
 .sect {
@@ -52,7 +52,7 @@
 
 .empty-right {
   height: 200px;
-  background: rgb(104, 104, 102);
+  background: rgb(217, 215, 215);
   background: linear-gradient(
     0deg,
     rgba(104, 104, 102, 1) 0%,
@@ -64,7 +64,7 @@
 }
 
 .right {
-  background-color: #686866;
+  background-color: rgb(217, 215, 215);
   height: 100%;
 }
 .left img {
@@ -74,10 +74,10 @@
 
 .empty-left-down {
   height: 200px;
-  background: rgb(209, 209, 209);
+  background: rgb(217, 215, 215);
   background: linear-gradient(
     0deg,
-    rgba(209, 209, 209, 1) 0%,
+    rgba(217, 215, 215, 1) 0%,
     rgba(182, 62, 66, 1) 100%
   );
 }
@@ -98,7 +98,7 @@
   background: linear-gradient(
     0deg,
     rgba(182, 62, 66, 1) 0%,
-    rgba(104, 104, 102, 1) 100%
+    rgba(217, 215, 215, 1) 100%
   );
 }
 
@@ -108,16 +108,16 @@
 
 .empty_white {
   height: 200px;
-  background: rgb(210, 210, 210);
+  background: rgb(217, 215, 215);
   background: linear-gradient(
     0deg,
-    rgba(210, 210, 210, 1) 0%,
+    rgba(217, 215, 215, 1) 0%,
     rgba(104, 104, 102, 1) 100%
   );
 }
 
 .grey {
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(217, 215, 215);
 }
 
 .red {

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Footer.css"
 
 const Footer = () => {
   return (
     <>
-      <div class="text-center text-white" id="background">
+      <div class="text-center text-white bg_beige">
         <div class="container pt-4">
           <section class="mb-4 mid">
             <Link
