@@ -13,7 +13,7 @@ const Team = () => {
             <img src={ELIAS} alt="" />
           </div>
           <div class="card_content">
-            <span class="card_title">Elias Abi Saad</span>
+            <span class="card_title">Elias  Abi Saad</span>
             <span class="card_subtitle">
               Thsi is a subtitle of this page. Let us see how it looks on the
               Web.

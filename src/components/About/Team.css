@@ -5,7 +5,8 @@
 .team {
   background-color: rgb(210, 210, 210);
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
+  line-height: 1.5;
 }
 
 .title {
@@ -45,7 +46,7 @@
   transition: transform 0.25s;
 }
 
-.card_content::before {
+/* .card_content::before {
   content: "";
   position: absolute;
   top: -47px;
@@ -55,12 +56,14 @@
   transform: rotate(-175deg);
   border-radius: 50%;
   box-shadow: inset 48px 48px rgb(159, 30, 34);
-}
+} */
 
 .card_title {
   color: #131313;
   /* line-height: 15px; */
 }
+
+
 
 .card_subtitle {
   display: block;
@@ -93,6 +96,24 @@
     width: calc(50% - 10px);
     margin: 10px 0;
   }
+  .team{
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  /* .meet-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .meet-team > article {
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  } */
+  .team{
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -103,5 +124,10 @@
   }
   .meet-team > article {
     width: 100%;
+  }
+
+
+  .team{
+    line-height: 1.5;
   }
 }
