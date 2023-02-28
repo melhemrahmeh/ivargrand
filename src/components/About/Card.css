@@ -8,12 +8,17 @@
   color: white;
   margin: 0;
   border: 0;
+  height: fit-content;
+}
+
+.sect.left.left-items , .sect.left.right-items {
+  height: 800px;
 }
 
 .left-items,
 .right-items {
   width: 50vw;
-  height: 500px;
+  height: 600px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -23,14 +28,16 @@
 
 .left-items {
   text-align: center;
-  margin-top: 10%;
 }
 
 .right-items {
-  margin-top: 10%;
-
   text-align: center;
-  width: 70%;
+  width: 100%;
+}
+
+.left.red{
+  height: 600px;
+  width: 100%;
 }
 
 .empty-left-red {
@@ -53,7 +60,7 @@
   );
 }
 .left {
-  background-color: rgb(182, 62, 66);
+  height: 100%;
 }
 
 .right {
@@ -112,10 +119,15 @@
   background-color: rgb(210, 210, 210);
 }
 
+.red {
+  background: rgb(182, 62, 66);
+}
+
 @media screen and (max-width: 991px) {
   .sect {
     display: flex;
     flex-direction: column;
+    height: fit-content;
   }
 
   .sect_reverse {
