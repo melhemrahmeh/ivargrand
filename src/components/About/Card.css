@@ -33,6 +33,7 @@
 .right-items {
   text-align: center;
   width: 100%;
+  height: fit-content;
 }
 
 .left.red{
@@ -60,11 +61,12 @@
   );
 }
 .left {
-  height: 100%;
+  height: fit-content;
 }
 
 .right {
   background-color: #686866;
+  height: 100%;
 }
 .left img {
   width: calc(50vw - 20%);
@@ -127,6 +129,10 @@
   .sect {
     display: flex;
     flex-direction: column;
+    height: fit-content;
+  }
+
+  .sect > div > .left-items{
     height: fit-content;
   }
 
