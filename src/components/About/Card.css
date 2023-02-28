@@ -139,10 +139,6 @@
     flex-direction: column-reverse;
   }
 
-  .empty-left-down {
-    /* display: none; */
-  }
-
   .clear_small {
     display: none;
   }
