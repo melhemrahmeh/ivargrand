@@ -27,7 +27,7 @@
   flex-direction: row;
 }
 
-.row > *{
+.row > * {
   width: 50%;
   margin: 10px auto;
 }
@@ -66,7 +66,6 @@ textarea {
   background: transparent;
   border: 3px solid rgb(0, 0, 0);
   resize: none;
-  color: rgb(8, 7, 7);
 }
 
 #sendm {
@@ -94,20 +93,23 @@ textarea {
   border: 0;
   margin: 0 auto;
   border-radius: 20px;
-  padding: 10px 40px;
+  padding: 13px 50px;
 }
 
 .custom_btn:hover {
   background-color: rgb(159, 30, 34);
 }
 
-
 @media only screen and (max-width: 991px) {
-  .row{
+  .row {
     background-size: contain;
     display: flex;
     flex-direction: column;
     height: fit-content;
   }
-  
+}
+
+::placeholder {
+  color: rgb(8, 7, 7);
+  opacity: 1;
 }
