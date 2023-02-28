@@ -1,6 +1,7 @@
 import React from "react";
 import "./Team.css";
-import IMG from "../images/fggf.jpg";
+import IMG from "../../assets/phillipe.png";
+import ELIAS from "../../assets/elias.jpg";
 
 const Team = () => {
   return (
@@ -9,10 +10,10 @@ const Team = () => {
       <div className="meet-team">
         <article class="card member_card w-5">
           <div class="temporary_text">
-            <img src={IMG} alt="" />
+            <img src={ELIAS} alt="" />
           </div>
           <div class="card_content">
-            <span class="card_title">This is a Title</span>
+            <span class="card_title">Elias Abi Saad</span>
             <span class="card_subtitle">
               Thsi is a subtitle of this page. Let us see how it looks on the
               Web.
@@ -30,7 +31,7 @@ const Team = () => {
             <img src={IMG} alt="" />
           </div>
           <div class="card_content">
-            <span class="card_title">This is a Title</span>
+            <span class="card_title">Phillipe Abi Saad</span>
             <span class="card_subtitle">
               Thsi is a subtitle of this page. Let us see how it looks on the
               Web.
