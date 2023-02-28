@@ -8,7 +8,8 @@ import DATA from "../data.json";
 const Card = () => {
   return (
     // first
-    <div id="grey">
+
+    <>
       <div className="sect">
         <div className="left red">
           <div className="empty-left-red"></div>
@@ -28,36 +29,39 @@ const Card = () => {
         </div>
       </div>
 
-      {/* second */}
-      <div className="sect sect_reverse">
-        <div className="right grey">
-          <div className="right-items">
-            <p className="text-dark">{DATA[1].data}</p>
+      
+      <div id="grey">
+        {/* second */}
+        <div className="sect sect_reverse">
+          <div className="right grey">
+            <div className="right-items">
+              <p className="text-dark">{DATA[1].data}</p>
+            </div>
+          </div>
+
+          <div className="">
+            <div className="left-items grey">
+              <img src={IMG3} alt="hahaha" />
+            </div>
           </div>
         </div>
 
-        <div className="">
-          <div className="left-items grey">
-            <img src={IMG3} alt="hahaha" />
+        {/* third */}
+        <div className="sect">
+          <div className="">
+            <div className="left-items grey">
+              <img src={IMG2} alt="hahaha" />
+            </div>
+          </div>
+
+          <div className="">
+            <div className="right-items ">
+              <p className="text-dark">{DATA[2].data}</p>
+            </div>
           </div>
         </div>
       </div>
-
-      {/* third */}
-      <div className="sect">
-        <div className="">
-          <div className="left-items grey">
-            <img src={IMG2} alt="hahaha" />
-          </div>
-        </div>
-
-        <div className="">
-          <div className="right-items ">
-            <p className="text-dark">{DATA[2].data}</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

@@ -33,13 +33,12 @@
 .right-items {
   text-align: center;
   width: 100%;
-  height: fit-content;
 }
 
-.left.red{
+/* .left.red{
   height: 600px;
   width: 100%;
-}
+} */
 
 .empty-left-red {
   height: 200px;
@@ -69,7 +68,7 @@
   height: 100%;
 }
 .left img {
-  width: calc(50vw - 20%);
+  width: calc(50vw - 100%);
   margin: 20px auto 0;
 }
 
@@ -150,5 +149,10 @@
 
   .clear_small_grey {
     display: none;
+  }
+
+  .left-items,
+  .right-items{
+    height: fit-content;
   }
 }
