@@ -64,12 +64,12 @@
 
 .card_subtitle {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
 .card_description {
-  font-size: 14px;
+  font-size: 15px;
   opacity: 0;
   transition: opacity 0.5s;
 }
