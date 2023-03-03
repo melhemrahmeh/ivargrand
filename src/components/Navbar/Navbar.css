@@ -45,3 +45,10 @@ li {
   color: transparent;
   border-color: transparent;
 }
+
+
+@media screen and (max-width : 992px){
+  .navbar .navbar-nav > li > a {
+    text-align: center;
+  }
+} 
