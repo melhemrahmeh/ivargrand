@@ -1,0 +1,8 @@
+.product_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:  auto;
+    width: 100%;
+    background: rgb(217, 215, 215);
+    justify-content: center;
+}
