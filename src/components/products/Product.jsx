@@ -18,10 +18,10 @@ const Product = (props) => {
           <div className="product_desc">
             <p>{description}</p>
           </div>
-
+{/* 
           <div className="product_price">
             <h4>{price}</h4>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

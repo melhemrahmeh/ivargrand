@@ -1,4 +1,4 @@
-.row::before {
+/* .row::before {
   content: "";
   background-image: url(../../assets/contactbg.jpg);
   background-size: cover;
@@ -8,7 +8,7 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.5;
-}
+} */
 
 .card_main {
   border: 0;
@@ -17,7 +17,7 @@
 
 .row {
   padding: 30px;
-  color: black;
+  color: white;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -25,6 +25,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
+  background-color: #131516;
 }
 
 .row > * {
@@ -33,7 +34,7 @@
 }
 
 .body_contact {
-  background-color: transparent;
+  background-color: rgb(112, 112, 112);
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
   backdrop-filter: blur(6px);
   padding: 100px 30px;
@@ -41,7 +42,7 @@
   border-radius: 40px;
   height: fit-content;
   margin-bottom: 10px;
-  width: 40vw;
+  width: 100%;
 }
 
 .body_contact > * {
@@ -64,8 +65,16 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid white;
   resize: none;
+}
+
+input:focus,
+textarea:focus {
+  color: white;
+  border-color: white;
+  margin: 0;
+  background-color: transparent;
 }
 
 #sendm {
@@ -73,14 +82,14 @@ textarea {
 }
 
 .body_form {
-  background-color: transparent;
+  background-color: rgb(112, 112, 112);
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
   backdrop-filter: blur(6px);
   padding: 100px 30px;
   text-align: center;
   border-radius: 40px;
   height: fit-content;
-  width: 40vw;
+  width: 100%;
 }
 
 #title_contact_us {
@@ -89,8 +98,8 @@ textarea {
 
 .custom_btn {
   width: fit-content;
-  background-color: #686866;
-  border: 0;
+  background-color: rgb(112, 112, 112);
+  border: 1px solid white;
   margin: 0 auto;
   border-radius: 20px;
   padding: 13px 50px;
@@ -133,6 +142,6 @@ textarea {
 }
 
 ::placeholder {
-  color: rgb(8, 7, 7);
+  color: white;
   opacity: 1;
 }

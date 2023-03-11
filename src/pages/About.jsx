@@ -13,7 +13,6 @@ const About = () => {
       <Navbar />
       <Header />
       <Card />
-      {/* <Team /> */}
       <Footer />
     </>
   );

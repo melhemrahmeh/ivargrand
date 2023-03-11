@@ -1,7 +1,25 @@
 import React from "react";
 import "./Contact.css";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const ContactCompoment = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_5lbrexw",
+      "template_9azw7hr",
+      form.current,
+      "SpHCRXL1ap7PX2DXj"
+    );
+
+    e.target.reset();
+  };
+
   return (
     <div className="main_pic">
       <div class="row">
@@ -43,7 +61,7 @@ const ContactCompoment = () => {
           <div class="card card_main">
             <div class="card-body body_form">
               <h2 id="title_contact_us">Send Us A Message</h2>
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <input
                   type="text"
                   name="name"
@@ -63,7 +81,7 @@ const ContactCompoment = () => {
                   required
                 ></textarea>
                 <button
-                  type="button"
+                  type="submit"
                   class="btn btn-primary btn-rounded custom_btn"
                 >
                   <b>Send</b>

@@ -6,18 +6,27 @@
   padding: 10px;
   transition: 0.3s;
   margin: 20px 20px;
-  background-color: white;
+  background-color: grey;
+  color: white;
 }
 
 .product_name h3 {
   text-align: center;
 }
 
-.img_product img {
+.img_product {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img_product img {
+  width: 90%;
   border-radius: 45px;
 }
 
+.product_desc {
+  text-align: center;
+}
 .product_desc p {
   font-size: 15px;
 }
@@ -29,8 +38,8 @@
 .cover_product:hover {
   background-color: #9f1e22;
   color: white;
-  transition: smooth;
-  border: 0;
+  /* transition: smooth; */
+  /* border: 0; */
 }
 
 @media screen and (max-width: 1000px) {

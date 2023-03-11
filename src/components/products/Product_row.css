@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     margin:  auto;
     width: 100%;
-    background: rgb(217, 215, 215);
+    background: #131516;
     justify-content: center;
+}
+
+.custom{
+    background: #131516;
+    color: white;
 }
