@@ -6,7 +6,7 @@ nav > div > img {
 
 nav {
   background-color: #222324;
-  padding: 15px;
+  padding: 10px;
   transition: all 0.8s;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -16,6 +16,7 @@ nav {
 li {
   margin: auto 20px;
 }
+
 .navbar .navbar-nav > li > a {
   /* font-family: "Lato", sans-serif; */
   text-transform: uppercase;
@@ -46,9 +47,8 @@ li {
   border-color: transparent;
 }
 
-
-@media screen and (max-width : 992px){
+@media screen and (max-width: 992px) {
   .navbar .navbar-nav > li > a {
     text-align: center;
   }
-} 
+}
