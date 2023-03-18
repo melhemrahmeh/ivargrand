@@ -1,5 +1,5 @@
 nav > div > img {
-  width: 150px;
+  width: 200px;
   margin-right: calc(100vw - 950px);
   margin-left: 2vw;
 }
@@ -24,7 +24,7 @@ li {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 15px 0;
+  margin: 9px 10px 0;
   font-weight: bold;
 }
 
