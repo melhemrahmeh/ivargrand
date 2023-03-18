@@ -82,7 +82,7 @@ const ContactCompoment = () => {
                 ></textarea>
                 <button
                   type="submit"
-                  class="btn btn-primary btn-rounded custom_btn"
+                  class="btn text-white custom_btn"
                 >
                   <b>Send</b>
                 </button>

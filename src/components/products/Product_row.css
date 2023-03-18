@@ -3,11 +3,12 @@
     flex-wrap: wrap;
     margin:  auto;
     width: 100%;
-    background: #131516;
+    background: #222324;
     justify-content: center;
+    
 }
 
 .custom{
-    background: #131516;
+    background: #222324;
     color: white;
 }

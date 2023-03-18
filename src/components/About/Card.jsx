@@ -11,21 +11,17 @@ const Card = () => {
 
     <>
       <div className="sect">
-        <div className="left red">
-          <div className="empty-left-red"></div>
-          <div className="left-items red">
+        <div className="">
+          <div className="left-items ">
             <h2>Welcome to IVAR GRAND!</h2>
             <img src={IMG} alt="hahaha" />
           </div>
-          <div className="empty-left-down clear_small_grey"></div>
         </div>
 
         <div className="left">
-          <div className="empty-left-red clear_small "></div>
-          <div className="right-items red">
+          <div className="right-items">
             <p>{DATA[0].data}</p>
           </div>
-          <div className="empty-left-down"></div>
         </div>
       </div>
 
@@ -33,15 +29,15 @@ const Card = () => {
       <div id="grey">
         {/* second */}
         <div className="sect sect_reverse">
-          <div className="right grey">
+          <div className="right">
             <div className="right-items">
-              <p className="text-dark">{DATA[1].data}</p>
+              <p className="">{DATA[1].data}</p>
             </div>
           </div>
 
           <div className="">
-            <div className="left-items grey">
-              <img src={IMG3} alt="hahaha" />
+            <div className="left-items ">
+              <img src={IMG2} alt="hahaha" />
             </div>
           </div>
         </div>
@@ -49,14 +45,14 @@ const Card = () => {
         {/* third */}
         <div className="sect">
           <div className="">
-            <div className="left-items grey">
-              <img src={IMG2} alt="hahaha" />
+            <div className="left-items ">
+              <img src={IMG} alt="hahaha" />
             </div>
           </div>
 
           <div className="">
             <div className="right-items ">
-              <p className="text-dark">{DATA[2].data}</p>
+              <p className="">{DATA[2].data}</p>
             </div>
           </div>
         </div>

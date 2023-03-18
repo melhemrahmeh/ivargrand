@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <>
       <div class="text-center text-white bg_beige">
-        <div class="container pt-4">
-          <section class="mb-4 mid">
+        <div class="container pt-4 links">
+          <section class="mb-4 mid link-red">
             <Link
               class="btn btn-link btn-floating btn-lg text-white m-1 text-decoration-none"
               to="/home"

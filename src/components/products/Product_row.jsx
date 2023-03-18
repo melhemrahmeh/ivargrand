@@ -1,15 +1,13 @@
 import React from "react";
 import Product from "./Product";
 import { data } from "./data";
-import IMG from "../../assets/productIntro.jpg";
 import "./Product_row.css";
 
 const Product_row = () => {
   return (
     <>
-      <img src={IMG} alt="" className="w-100" />
-      <div className="w-100 text-center d-flex flex-column align-items-center custom">
-        <div className="w-50 my-5">
+      <div className="w-100 text-center d-flex flex-column align-items-center custom fs-5">
+        <div className="w-50 my-5 ">
           <h1>Product Range</h1>
           <p>
             IVAR Lubricants offers an extensive range of products covering all

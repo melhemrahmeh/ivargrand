@@ -1,6 +1,5 @@
 import React from "react";
-import IMG1 from "../images/8e64d14c-d5df-4050-b76e-c7c0c90da004.jpg"
-import IMG2 from "../images/happy-young-asian-businessmen-businesswomen-meeting-brainstorming-ideas.jpg"
+import IMG from "../../assets/productIntro.jpg";
 
 const Carousel = () => {
   return (
@@ -12,10 +11,10 @@ const Carousel = () => {
       >
         <div class="carousel-inner ">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src={IMG1} class="d-block w-100 vh-50" alt="..." />
+          <img src={IMG} alt="" className="w-100" />
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={IMG2} class="d-block w-100" alt="..." />
+            <img src={IMG} class="d-block w-100" alt="..." />
           </div>
           
         </div>

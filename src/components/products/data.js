@@ -1,11 +1,11 @@
-import IMG1 from "../../assets/products/product8.jpeg";
-import IMG2 from "../../assets/products/product2.jpeg";
-import IMG3 from "../../assets/products/product3.jpeg";
-import IMG4 from "../../assets/products/product6.jpeg";
-import IMG5 from "../../assets/products/product7.jpeg";
-import IMG6 from "../../assets/products/product1.jpeg";
-import IMG7 from "../../assets/products/product5.jpeg";
-import IMG8 from "../../assets/products/product4.jpeg";
+import IMG1 from "../../assets/products/product8.png";
+import IMG2 from "../../assets/products/product2.png";
+import IMG3 from "../../assets/products/product3.png";
+import IMG4 from "../../assets/products/product6.png";
+import IMG5 from "../../assets/products/product7.png";
+import IMG6 from "../../assets/products/product1.png";
+import IMG7 from "../../assets/products/product5.png";
+import IMG8 from "../../assets/products/product4.png";
 
 
 export const data = [
