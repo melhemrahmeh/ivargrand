@@ -3,19 +3,27 @@ import "./Contact.css";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
-const ContactCompoment = () => {
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+// toast.configure();
+
+const ContactCompoment = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_5lbrexw",
-      "template_9azw7hr",
-      form.current,
-      "SpHCRXL1ap7PX2DXj"
-    );
+    emailjs
+      .sendForm(
+        "service_5lbrexw",
+        "template_9azw7hr",
+        form.current,
+        "SpHCRXL1ap7PX2DXj"
+      )
+      .then(() => {
+        toast.success(`Message sent to IvarGrand!`);
+      });
 
     e.target.reset();
   };
@@ -91,6 +99,15 @@ const ContactCompoment = () => {
           </div>
         </div>
       </div>
+      <ToastContainer
+        autoClose={4000}
+        hideProgressBar={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 };
