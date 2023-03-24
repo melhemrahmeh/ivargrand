@@ -41,7 +41,7 @@
   height: 100%;
 }
 .left img {
-  width: calc(50vw - 100%);
+  width: 200px;
   margin: 20px auto 0;
 }
 
