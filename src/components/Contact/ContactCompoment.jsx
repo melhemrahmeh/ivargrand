@@ -34,13 +34,9 @@ const ContactCompoment = () => {
         <div class="zero_margin">
           <div class="card card_main">
             <div class="card-body body_contact">
-              <h5 class="card-title contact_title">
-                <em>We Are Here For You</em>
-              </h5>
+              <h5 class="card-title contact_title">We Are Here For You</h5>
               <h2>What do you need, and how can we help?</h2>
-              <p class="card-text">
-                <em>Don't hesitate to give us a call via:</em>
-              </p>
+              <p class="card-text">Don't hesitate to give us a call via:</p>
               <ul>
                 <li>
                   <b>Landline:</b> +971 4565 3098
@@ -49,9 +45,7 @@ const ContactCompoment = () => {
                   <b>Telephone:</b> +971 50 2705 671
                 </li>
               </ul>
-              <p class="card-text">
-                <em>Or send us an email on:</em>
-              </p>
+              <p class="card-text">Or send us an email on:</p>
               <ul>
                 <li>
                   <b>Email:</b> ivar.lubricants@gmail.com
@@ -88,10 +82,7 @@ const ContactCompoment = () => {
                   placeholder="Your Message"
                   required
                 ></textarea>
-                <button
-                  type="submit"
-                  class="btn text-white custom_btn"
-                >
+                <button type="submit" class="btn text-white custom_btn">
                   <b>Send</b>
                 </button>
               </form>

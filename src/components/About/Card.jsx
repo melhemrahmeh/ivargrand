@@ -1,60 +1,36 @@
 import React from "react";
 import "./Card.css";
-import IMG from "../../assets/logoWhite.png";
-import IMG2 from "../../assets/color_logo.png";
-import IMG3 from "../../assets/black_logo.png";
-import DATA from "../data.json";
 
 const Card = () => {
   return (
     // first
 
     <>
-      <div className="sect">
-        <div className="">
-          <div className="left-items ">
-            <h2>Welcome to IVAR GRAND!</h2>
-            <img src={IMG} alt="hahaha" />
-          </div>
-        </div>
-
-        <div className="left">
-          <div className="right-items">
-            <p>{DATA[0].data}</p>
-          </div>
-        </div>
-      </div>
-
-      
-      <div id="grey">
-        {/* second */}
-        <div className="sect sect_reverse">
-          <div className="right">
-            <div className="right-items">
-              <p className="">{DATA[1].data}</p>
-            </div>
-          </div>
-
-          <div className="">
-            <div className="left-items ">
-              <img src={IMG2} alt="hahaha" />
-            </div>
-          </div>
-        </div>
-
-        {/* third */}
-        <div className="sect">
-          <div className="">
-            <div className="left-items ">
-              <img src={IMG} alt="hahaha" />
-            </div>
-          </div>
-
-          <div className="">
-            <div className="right-items ">
-              <p className="">{DATA[2].data}</p>
-            </div>
-          </div>
+      <div className="main_about">
+        <div className="right-items">
+          <p>
+            We are a leading lubricant manufacturer strategically located in
+            Dubai Industrial City Phase-3 next to Al Maktoum Airport and in
+            close proximity to Jebel Ali Port. Our state-of-the-art lube oil
+            blending plant covers a total area of 1100 sq. meters and is
+            equipped to manufacture a wide range of lubricants, brake fluids,
+            coolants, and greases. With a total daily production capacity of
+            45MT, our products cater to automotive, industrial, marine, and
+            specialty applications. At IVAR GRAND, we pride ourselves on our
+            ability to customize our products to meet the unique needs of our
+            clients. Whether it's for cars, bikes, commercial vehicles,
+            construction equipment, boats, or garden appliances, we have the
+            perfect product for you. Our brand stands for quality, efficiency,
+            and precision, and we strive to deliver excellent and reliable
+            products every time. Many of our high-performance lubricants enable
+            the use of technical innovations and help to employ energy more
+            efficiently, resulting in proven reductions in consumption. Since
+            our inception in 2015, we have been serving a network of clients
+            across the globe, with a focus on the Middle East and Africa. Our
+            goal is to provide quality products, greater volumes, and
+            cost-effectiveness to enhance customer satisfaction and acquire a
+            larger client base.
+          </p>
         </div>
       </div>
     </>
