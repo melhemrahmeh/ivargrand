@@ -4,6 +4,7 @@ import LOGO from "../../assets/color_logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
+  //
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light">
