@@ -75,3 +75,29 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 282px) {
+  .title_main h2 {
+    padding-top: 30vh;
+    font-size: 20px;
+    margin: 0 60px;
+  }
+
+  .title_main h1 {
+    font-size: 30px;
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .title_main h2 {
+    padding-top: 30vh;
+    font-size: 10px;
+    margin: 0 60px;
+  }
+
+  .title_main h1 {
+    font-size: 20px;
+    margin: 0 60px;
+  }
+}
