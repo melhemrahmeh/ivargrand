@@ -16,20 +16,30 @@ const Card = () => {
             equipped to manufacture a wide range of lubricants, brake fluids,
             coolants, and greases. With a total daily production capacity of
             45MT, our products cater to automotive, industrial, marine, and
-            specialty applications. At IVAR GRAND, we pride ourselves on our
-            ability to customize our products to meet the unique needs of our
-            clients. Whether it's for cars, bikes, commercial vehicles,
-            construction equipment, boats, or garden appliances, we have the
-            perfect product for you. Our brand stands for quality, efficiency,
-            and precision, and we strive to deliver excellent and reliable
-            products every time. Many of our high-performance lubricants enable
-            the use of technical innovations and help to employ energy more
-            efficiently, resulting in proven reductions in consumption. Since
-            our inception in 2015, we have been serving a network of clients
-            across the globe, with a focus on the Middle East and Africa. Our
-            goal is to provide quality products, greater volumes, and
-            cost-effectiveness to enhance customer satisfaction and acquire a
-            larger client base.
+            specialty applications.
+          </p>
+
+          <br />
+          <br />
+          <p>
+            At IVAR GRAND, we pride ourselves on our ability to customize our
+            products to meet the unique needs of our clients. Whether it's for
+            cars, bikes, commercial vehicles, construction equipment, boats, or
+            garden appliances, we have the perfect product for you. Our brand
+            stands for quality, efficiency, and precision, and we strive to
+            deliver excellent and reliable products every time.{" "}
+          </p>
+
+          <br />
+          <br />
+          <p>
+            Many of our high-performance lubricants enable the use of technical
+            innovations and help to employ energy more efficiently, resulting in
+            proven reductions in consumption. Since our inception in 2015, we
+            have been serving a network of clients across the globe, with a
+            focus on the Middle East and Africa. Our goal is to provide quality
+            products, greater volumes, and cost-effectiveness to enhance
+            customer satisfaction and acquire a larger client base.
           </p>
         </div>
       </div>

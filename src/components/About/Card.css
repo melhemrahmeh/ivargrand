@@ -21,4 +21,11 @@
   .right-items {
     width: 90%;
   }
+
+  @media screen and (max-width: 800px) {
+    .main_about > div{
+        width: 100% !important;
+        font-size: small !important;
+    }
+  }
 }
