@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
+import IMG from "../images/swa-min.jpg"
 
 const Header = () => {
   return (
     <>
       <div className="main">
-        <h1>Welcome to IVARGRAND Refelling Services LLC</h1>
+        <img src={IMG} alt="" />
       </div>
     </>
   );
