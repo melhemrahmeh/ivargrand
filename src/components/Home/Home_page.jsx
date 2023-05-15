@@ -4,10 +4,13 @@ import Product from "../products/Product";
 import { data } from "./data";
 import { Link } from "react-router-dom";
 
+import Home_courasel from "./home_courasel";
+
 
 const Home_page = () => {
   return (
     <div className="hiMain">
+      <Home_courasel/>
       <div className="main_home">
         <div className="title_main">
           <h2>Welcome to </h2>
