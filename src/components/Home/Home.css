@@ -3,22 +3,17 @@
     background-color: #222324;
 }
 .main_home {
-  background-image: url("../../assets/main.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  
-
   color: white;
   height: 600px;
 }
 
 .title_main {
   width: 100%;
+  text-align: center;
 }
 
 .title_main h2 {
-  padding-top: 30vh;
+  padding-top: 20vh;
   font-size: 60px;
   margin: 0 60px;
 }
