@@ -39,10 +39,10 @@ const Footer = () => {
         </div>
 
         <div class="text-center text-white p-3" id="bg2">
-          © 2023 Copyright:{" "}
-          <a class="text-white" href="https://ivargrand.com/">
-            IVAR GRAND
-          </a>
+          
+          <a class="text-white" href="https://auroratech.live/">
+            AuroraTech
+          </a> © 2024 All Rights Reserved
         </div>
       </div>
     </>
