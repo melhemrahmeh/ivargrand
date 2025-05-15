@@ -48,7 +48,22 @@ const ContactCompoment = () => {
               <p class="card-text">Or send us an email on:</p>
               <ul>
                 <li>
-                  <b>Email:</b> ivar.lubricants@gmail.com
+                  <div style={{ color: "white" }}>
+                    <strong>Email: </strong>
+                    <a 
+                      href="mailto:ivar.lubricants@gmail.com" 
+                      style={{ color: "white", textDecoration: "none" }}
+                    >
+                      ivar.lubricants@gmail.com
+                    </a>
+                    {" or "}
+                    <a 
+                      href="mailto:info@ivar-grand.com"
+                      style={{ color: "white", textDecoration: "none" }}
+                    >
+                      info@ivar-grand.com
+                    </a>
+                  </div>
                 </li>
               </ul>
               <p class="card-text">

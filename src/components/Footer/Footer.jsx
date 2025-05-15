@@ -40,8 +40,8 @@ const Footer = () => {
 
         <div class="text-center text-white p-3" id="bg2">
           
-          <a class="text-white" href="https://auroratech.live/">
-            AuroraTech
+          <a class="text-white" href="https://ivargrand.com/">
+            IvarGrand
           </a> © 2024 All Rights Reserved
         </div>
       </div>
